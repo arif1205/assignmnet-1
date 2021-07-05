@@ -21,14 +21,27 @@ header {
 	height: 100vh;
 }
 
+img {
+	max-width: 100%;
+	object-fit: cover;
+}
+
 .row {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
 
+.col {
+	align-self: center;
+}
+
 .col-6 {
 	width: 47%;
+}
+
+.col-4 {
+	width: 30%;
 }
 
 .btn {
@@ -55,7 +68,6 @@ header {
 }
 
 .header-description {
-	align-self: center;
 	padding-left: 30px;
 }
 
@@ -69,7 +81,7 @@ header {
 }
 
 .health {
-	color: #fba24f;
+	color: #fba24f !important;
 }
 
 .header-sub-title {
@@ -83,7 +95,165 @@ header {
 }
 
 .header-img img {
-	/* height: 750px; */
 	max-width: 80%;
 }
 /* header part end  */
+
+/* about part start  */
+#about {
+	background: url("./images/shapes/Frame 57.jpg");
+	background-size: cover;
+}
+
+.about-img {
+	padding-top: 80px;
+	text-align: center;
+}
+
+.about-img img {
+	width: 300px;
+	height: 486px;
+	margin: auto;
+}
+
+#about .col-6 {
+	align-self: center;
+}
+
+.about-description {
+	padding-right: 180px;
+}
+
+.about-title {
+	font-size: 48px;
+	color: #777;
+	margin-bottom: 32px;
+}
+
+.about-details {
+	color: #555;
+	font-size: 15px;
+	line-height: 1.5;
+}
+/* about part end  */
+
+/* recipe part start  */
+.recipe-container {
+	padding: 70px;
+}
+
+.recipe-header {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.recipe-title {
+	font-size: 48px;
+	color: #777;
+	margin-bottom: 32px;
+}
+
+.recipe-details {
+	font-size: 15px;
+	width: 700px;
+	padding: 0 30px;
+	text-align: center;
+	margin: auto;
+	color: #555;
+}
+
+.recipe-item {
+	padding: 10px;
+	border-radius: 30px;
+	box-shadow: 3px 3px 9px 3px #ddd;
+}
+.recipe-img {
+	margin-bottom: 20px;
+}
+
+.recipe-img img {
+	width: 100%;
+	height: 260px;
+	border-radius: 10px;
+}
+
+.recipe-item-details {
+	padding: 0 15px 30px;
+}
+
+.recipe-item-title {
+	font-size: 22px;
+	margin-bottom: 10px;
+	/* color: #fba24f; */
+	border-bottom: 2px solid #fba24f;
+	padding-bottom: 10px;
+	text-decoration: none;
+	color: #555;
+	font-weight: 700;
+	display: block;
+	transition: color 0.2s;
+}
+
+.recipe-item-title:hover {
+	color: #fba24f;
+}
+
+.recipe-item-details p {
+	font-size: 15px;
+	color: #555;
+	line-height: 1.5;
+	height: 100px;
+}
+/* recipe part end  */
+
+/* social section start  */
+#social {
+	margin-bottom: 80px;
+}
+
+.social-container {
+	padding: 20px 70px 70px;
+}
+
+.social-box {
+	box-shadow: 3px 3px 9px 3px #ddd;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.social-container row {
+	justify-content: space-evenly;
+}
+
+.social-item {
+	padding: 50px 0;
+}
+
+.followers {
+	font-size: 46px;
+	margin-bottom: 10px;
+}
+
+.social-name {
+	font-size: 13px;
+	color: #555;
+}
+/* social section end  */
+
+/* footer section start  */
+#footer {
+	background: #000000;
+	padding: 40px 0 120px;
+	text-align: center;
+}
+
+.footer-title {
+	color: #555;
+	margin-bottom: 20px;
+}
+
+.footer-sub-title {
+	color: #aaa;
+	font-size: 14px;
+}
+/* footer section end  */
