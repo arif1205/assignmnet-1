@@ -1,0 +1,89 @@
+/* rules 
+   1. header : should have two side. right side is image. left size one word have to diff color and button should open a external link
+   2. second section: almost same. just change the paragraph text
+   3. next section: title description should change img and border must be rounded
+   4. next section: optional(creative something)
+   5. footer: must have diff color in a word
+*/
+
+/* Common properties  */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+}
+
+header {
+	height: 100vh;
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.col-6 {
+	width: 47%;
+}
+
+.btn {
+	background: linear-gradient(45deg, #fba24f 10%, #ff1e1e 90%);
+	color: white;
+	width: 160px;
+	padding: 15px 30px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 30px;
+	margin-top: 40px;
+	display: block;
+	transition: all 0.2s;
+}
+
+.btn:hover {
+	box-shadow: 0px 68px 21px #947874;
+}
+/* Common properties end  */
+
+/* header part start  */
+.header-container {
+	padding: 60px 50px;
+}
+
+.header-description {
+	align-self: center;
+	padding-left: 30px;
+}
+
+.header-title {
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 78px;
+	text-transform: capitalize;
+	color: #555;
+	margin-bottom: 40px;
+}
+
+.health {
+	color: #fba24f;
+}
+
+.header-sub-title {
+	font-size: 18px;
+	color: #828282;
+	line-height: 1.3;
+}
+
+.header-img {
+	text-align: right;
+}
+
+.header-img img {
+	/* height: 750px; */
+	max-width: 80%;
+}
+/* header part end  */
